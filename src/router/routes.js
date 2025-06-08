@@ -12,6 +12,18 @@ const routes = [
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/ErrorNotFound.vue')
+  },
+  {
+    path: '/page-one',
+    component: () => import('pages/Page_one.vue')
+  },
+  {
+    path: '/page-two',
+    component: () => import('pages/Page_two.vue')
+  },
+  {
+    path: '/page-principal',
+    component: () => import('pages/Page_prin.vue')
   }
 ]
 
